@@ -10,6 +10,9 @@ namespace HeimdallUpdate.Models
 {
     internal class GithubReleaseResponse
     {
+        [JsonConstructor]
+        public GithubReleaseResponse() { }
+
         public string url { get; set; }
         public string assets_url { get; set; }
         public string upload_url { get; set; }
