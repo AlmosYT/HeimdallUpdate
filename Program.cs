@@ -1,9 +1,6 @@
 ﻿using HeimdallUpdate.Models;
 using Newtonsoft.Json;
-using System.Net;
-using System.Runtime.InteropServices;
 using System.IO.Compression;
-using System.Runtime.CompilerServices;
 
 namespace HeimdallUpdate
 {
