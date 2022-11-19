@@ -27,9 +27,6 @@ namespace HeimdallUpdate
 
             Console.WriteLine("Heimdall Updater v1.0");
 
-            //fetch latest release from GitHub API
-
-            //get appdomain current path
             workingDirectory = AppDomain.CurrentDomain.BaseDirectory;
             if (debugMode)
             {
