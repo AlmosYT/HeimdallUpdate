@@ -62,8 +62,6 @@ namespace HeimdallUpdate
                 if (latestRelease.published_at > DateTime.Parse(updateConfig.lastUpdated))
                 {
                     Console.WriteLine("Newer release found!");
-                    
-                    
                 }
             }
 
@@ -77,10 +75,6 @@ namespace HeimdallUpdate
                     Console.WriteLine("Exiting in 5 seconds...");
                 }
             }
-
-
-            // wait for 5 seconds
-            Thread.Sleep(5000);
         }
 
         public static GithubReleaseResponse[] FetchRepo(string creator, string repo)
